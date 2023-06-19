@@ -4,7 +4,7 @@ let productos = [
         nombre: 'Trombón Yamaha YSL-154',
         descripcion: 'Trombon Tenor profesional de vara',
         precio: 447.912,
-        imagen: 'img/trombon_yamaha.jpg',
+        imagen: 'trombon_yamaha.jpg',
         categoria: 'Trombones',
     },
     {
@@ -12,7 +12,7 @@ let productos = [
         nombre: 'Trombón B&S Stolzing BSMS14',
         descripcion: 'Trombón profesional. Calibre: 11,66mm/0.459″. Campana: 122mm/4,782',
         precio: 186.297,
-        imagen: 'img/trombon_BS.jpg',
+        imagen: 'trombon_BS.jpg',
         categoria: 'Trombones',
     },
     {
@@ -20,7 +20,7 @@ let productos = [
         nombre: 'Trompeta GALA WINDS PTR1100',
         descripcion: 'Trompeta plástica de estudio. Incluye soporte plegable.',
         precio: 79.791,
-        imagen: 'img/trompeta_gala.jpg',
+        imagen: 'trompeta_gala.jpg',
         categoria: 'Trompetas',
     },
     {
@@ -28,7 +28,7 @@ let productos = [
         nombre: 'Trompeta B&S BS3137',
         descripcion: 'Trompeta profesional. Calibre: 13,89mm/0.547″. Campana: 216mm/8 1/2″. Campana y curvas de bronce',
         precio: 186.297,
-        imagen: 'img/trompeta_BS.jpg',
+        imagen: 'trompeta_BS.jpg',
         categoria: 'Trompetas',
     },
     {
@@ -36,7 +36,7 @@ let productos = [
         nombre: 'Flauta STAGG WSFL251S',
         descripcion: 'Flauta traversa C-17 llaves abiertas/sol en linea. Con estuche.',
         precio: 108.724,
-        imagen: 'img/flauta_stagg.jpg',
+        imagen: 'flauta_stagg.jpg',
         categoria: 'Flautas',
     },
     {
@@ -44,7 +44,7 @@ let productos = [
         nombre: 'Flauta Clef Premium CFLTA',
         descripcion: 'Traversa, plateada Abierta al do grave mi/partido.',
         precio: 110.501,
-        imagen: 'img/flauta_clef.jpg',
+        imagen: 'flauta_clef.jpg',
         categoria: 'Flautas',
     },
 ];
