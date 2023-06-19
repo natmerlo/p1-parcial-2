@@ -9,11 +9,6 @@ header div p{
   font-size: 1.2rem;
 }
 
-header h1{
-  background-image: url(img/Sin-título-1.png);
-}
-
-
 .contenedor-cards {
   display: flex;
   flex-wrap: wrap;
