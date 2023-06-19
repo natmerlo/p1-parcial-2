@@ -291,25 +291,6 @@ function filtrarCategoria() {
     mensaje.innerText = "No se encontraron productos en esa categoría.";
     contenedorCards.appendChild(mensaje);
   }}
-
-  //Boton volver 
-  const contenedor = document.createElement("div");
-
-  const buttonVolver = document.createElement("button");
-  buttonVolver.classList.add("btn");
-  buttonVolver.classList.add("btn-secondary");
-  buttonVolver.innerText = "Volver";
-  buttonVolver.addEventListener("click", () => {
-    mostrarProductos(productos);
-  });
-  //Appendeo boton a contenedor
-  contenedor.appendChild(buttonVolver);
-  //Llamo a div header
-  const volver = document.querySelector(".header");
-  //Appendeo contenedor a div header
-  volver.appendChild(contenedor);
-
-
 }
 
 //LLamo al boton filtro
