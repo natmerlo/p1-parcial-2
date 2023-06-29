@@ -225,7 +225,7 @@ modalCarrito.addEventListener("click", () => {
   //Muestro monto total
   const modalTotal = document.createElement("p");
   modalTotal.classList.add("modal-total")
-  modalTotal.innerText = `Total: $${calcularTotal()}`;
+  modalTotal.innerText = `Total: ${calcularTotal()}`;
 
   //Cerrar ventana modal 
   const cerrar = document.createElement("a");
@@ -252,6 +252,7 @@ modalCarrito.addEventListener("click", () => {
   });
 });
 
+
 //Función para calcular el total de los productos
 function calcularTotal() {
   //Inicio en 0
@@ -261,8 +262,14 @@ function calcularTotal() {
     //Se suma el precio de cada producto
     total += producto.precio;
   });
-  //Devuelvo el total
-  return total.toFixed(2);
+
+  //formateo el preciototal con moneda ARG
+  const totalFormateado = total.toLocaleString("es-AR", {
+    style: "currency",
+    currency: "ARS",
+  });
+
+  return totalFormateado;
 }
 
 //Funcion para filtrar por categorias
@@ -309,6 +316,7 @@ function eliminarProducto(producto) {
   actualizarModal();
   return carrito;
 }
+
 
 
 //Funcion actualizar datos de la modal
@@ -379,3 +387,4 @@ function actualizarModal(){
   });
 
 }
+
